@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "knowledgebase": {
+      "command": "python",
+      "args": ["run_server.py"],
+      "cwd": "D:\\MyPlayground\\KnowledgeBaseMCP"
+    }
+  }
+}
