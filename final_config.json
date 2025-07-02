@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knowledgebase": {
+      "command": "python",
+      "args": ["D:\\MyPlayground\\KnowledgeBaseMCP\\launch_mcp.py"]
+    }
+  }
+}
