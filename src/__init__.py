@@ -7,6 +7,6 @@ __author__ = "KnowledgeBaseMCP Team"
 __description__ = "MCP server for extracting text from DOCX, PDF, and PPTX files"
 
 from .extractors import DocumentExtractor
-from .main import KnowledgeBaseMCP
+# from .main import KnowledgeBaseMCP  # Commented out to avoid import issues
 
-__all__ = ["DocumentExtractor", "KnowledgeBaseMCP"]
+__all__ = ["DocumentExtractor"]

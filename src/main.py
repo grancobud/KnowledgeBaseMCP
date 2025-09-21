@@ -17,9 +17,9 @@ from mcp.server.models import InitializationOptions
 from mcp import types
 
 # Local imports
-from extractors import DocumentExtractor
-from docx_writer import DocxWriter
-from xlsx_writer import XlsxWriter
+from .extractors import DocumentExtractor
+from .docx_writer import DocxWriter
+from .xlsx_writer import XlsxWriter
 
 # Logging config
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
